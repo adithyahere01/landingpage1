@@ -1,0 +1,95 @@
+
+/* logo name */
+.navbar .logo{
+   margin: 1.4% 0 1.4% 2%;    
+}
+/* nav-links */
+.navbar .nav-links .links{
+    left: 15%;
+}
+.navbar .nav-links .links a{
+    margin-left: 3.8vw;
+}
+
+/* login,signup button */
+.navbar .login{
+   right: 0%;
+   width: 30%;
+}
+
+/* hero section */
+.image-header img{
+    width: 50vw;
+}
+.heading{
+    padding: 2%;
+
+}
+.heading h1{
+    font-size: 3.4rem;
+}
+.heading p:nth-child(3){
+    width: 80%;
+}
+.button{
+    padding: 2%;
+}
+.div-1{
+    width: 20%;
+}
+
+/* section-3 */
+.content-3 .boxes{
+    width: 100%;
+    margin: 0;
+}
+.boxes .box-1{
+    width: 70%;
+}
+.boxes .box-2{
+    width: 70%;
+}
+/* profile section */
+.profile .profile-1{
+   width: 80%;
+   height: 20%;
+   left: 14%;
+}
+.profile-1 .msg{
+    margin: 1%;
+    line-height: 1.2;
+}
+.profile-1 .msg h6{
+     margin-bottom: 2%;
+     font-size: 0.9rem;
+}
+/* profile-2 */
+.profile .profile-2{
+    width: 80%;
+    height: 20%;
+    left: 8%;
+ }
+ .profile-2 .msg{
+     margin: 1%;
+     line-height: 1.2;
+ }
+ .profile-2 .msg h6{
+      margin-bottom: 2%;
+      font-size: 0.9rem;
+ }
+
+ /* cards section */
+ .cards-section .cards{
+    height: 200vh;
+   flex-direction: column;
+   justify-content:space-between;
+   padding-top: 6%;
+}
+
+ /* newsletter section */
+ .newsletter{
+    margin-top: 10%;
+}
+ .matter .email{
+    width: 70%;
+ }

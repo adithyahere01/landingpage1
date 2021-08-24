@@ -1,0 +1,275 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    height: 10vh;
+}
+/* brand name */
+.navbar .logo{
+  text-align: center;
+  margin: 3% 0;
+}
+/* navbar links */
+
+.navbar .nav-links .links{
+    margin: auto 0px;
+    top: 10vh;
+    left: 20%;
+    flex-direction: column;
+    height: 70vh;
+    width: 55vw;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.1s ease-out;
+    visibility: hidden;
+}
+.navbar .nav-links .links a{
+    font-size: 1.25rem;
+}
+
+/* login,signup buttons */
+.navbar .login{
+    top: 80vh;
+    left: 20%;
+    width: 55vw;
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+}
+.login .login-tabs{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* blue sign-up button */
+.login-tabs .sign-up{
+    margin-top: 4%;
+}
+
+
+/* menu icons  */
+.menu-icons{
+    display: block;
+    transition: all 0.1s ease-in;
+}
+.fa-ellipsis-h{
+    position: absolute;
+    top: 3vh;
+    right: 3%;
+    font-size: 1.8rem;
+}
+
+/* toggle styles */
+.show-links{
+    visibility: visible !important; /*links and login*/
+}
+.show-cross{
+    visibility: visible;
+}
+.hide-bar{
+    visibility: hidden;
+}
+.show-navbar{
+    height: 98vh;
+}
+
+/*hero section*/
+.image-header{
+    display: none;
+}
+.button{
+   width: 40%;
+}
+
+/* section-1 */
+.container{
+    margin: 0;
+}
+.heading{
+    width: 85%;
+}
+.circle{
+    left: 80%;
+}
+.div-1{
+    top: 12%;
+    right: -2.5%;
+    width: 30vw;
+    height: 9%;
+}
+
+/* section-2 */
+.section-2{
+    height: 100%;
+}
+.content-2{
+    height: 45vh;
+    width: 100%;
+    margin: 2%;
+    justify-content:center;
+}
+.content-2 h1{
+    height: 10%;
+    margin-bottom: 3vh;
+}
+
+.flex-row{
+    height: 100%;
+    width: 90vw;
+   display: block;
+}
+[class^="item-"] .icon{
+  font-size: 2rem;
+}
+[class^="item-"] h3{
+    padding: 8vh 0;
+}
+
+/* section-3 */
+.section-3{
+    height: 150vh;
+}
+.container-3{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.content-3{
+    height: 80%;
+    width: 100%;
+}
+.content-3 .boxes{
+    height: 80%;
+    width: 100%;
+    margin: 0%;
+}
+.boxes .box-1{
+    height: 70%;
+    width: 70%;
+}
+.boxes .box-2{
+    height: 70%;
+    width: 70%;
+}
+/* profile section */
+.content-3 .profile{
+   width: 100%;
+   height: 45%;
+}
+.profile .profile-1{
+   height: 18%;
+   width: 75%;
+   left: 16%;
+   top: 12%;
+}
+.profile-1 .msg{
+    line-height: 1.2;
+    margin: 0;
+}
+.profile-1 .msg h6{
+    font-size: 14px;
+}
+.profile-1 .msg p{
+    margin-bottom: 2%;
+    font-size: 15px;
+}
+/* profile-2 */
+.profile .profile-2{
+    height: 18%;
+   width: 75%;
+   left: 7%;
+   top: 46%;
+}
+.profile-2 .msg{
+    line-height: 1.2;
+    margin: 0;
+}
+.profile-2 .msg h6{
+    font-size: 14px;
+}
+.profile-2 .msg p{
+    margin-bottom: 2%;
+    font-size: 15px;
+}
+/* flex-row-2 */
+.container-3 .flex-row-2{
+  width: 100%;
+  margin: 0%;
+}
+.flex-row-2 button{
+   width: 40%;
+}
+
+/* cards section */
+.cards-section .cup{
+   height: 40vh;
+}
+.cup p{
+    width: 75%;
+}
+.cup a{
+    top: 90%;
+    left: 5%;
+}
+
+.cards-section .cards{
+    height: 200vh;
+   flex-direction: column;
+   justify-content:space-between;
+   padding-top: 6%;
+}
+
+/* newsletter section */
+.newsletter{
+    margin-top: 20%;
+}
+.matter h1{
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+.matter p{
+   font-size: 1rem;
+}
+.matter .email{
+  width: 90%;
+}
+.email input{
+   width: 65%;
+}
+.email label{
+    padding: 3% 2%;
+}
+
+/* footer section */
+.footer{
+    height: 70vh;
+}
+.footer-rows{
+   flex-direction: column;
+}
+.footer-rows [class^="item-"]{
+   padding-top: 0%;
+   width: 100%;
+   padding-left: 10%;
+}
+.footer-rows [class^="item-"] h2{
+    padding-bottom: 2%;
+    font-size: 1rem;
+}
+.footer-rows .item-1 p{
+    line-height: 1.2;
+}
+.footer-rows .item-2 ul li{
+    padding: 1% 0%;
+}
+.footer-rows .item-3 ul li{
+    padding: 1% 0%;
+}
+.footer-rows .item-4 p{
+    margin-top: 0%;
+}
+.footer-rows .item-4 p [class^="social-"]{
+    margin: 0%;
+} 
